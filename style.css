@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-section .table-section {
+    width: 100%;
+}
+
+.user-section {
+    margin-top: 50px;
+    width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px 15px 0 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    border: 1px solid #000000;
+}
+
+::placeholder {
+    font-weight: bold;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.add-user-section h3 {
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.add-user-section button {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+
+.add-user-section span {
+    display: block;
+    width: 100%;
+    margin: 0px 15px 15px 15px;
+    color: #ff0000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.table-section h3 {
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+
+table {
+    width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+tr,
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.delBtn {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+    .user-section {
+        width: 100%;
+        padding: 5px 15px;
+    }
+
+    input {
+        width: 80%;
+        margin: 0 auto;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .add-user-section h3 {
+        margin: 8px;
+        font-size: 20px;
+    }
+
+    .add-user-section button {
+        width: 80%;
+        margin: 8px auto;
+        height: 30px;
+    }
+
+    .table-section h3 {
+        text-align: center;
+        margin: 8px;
+        font-size: 20px;
+    }
+
+    table {
+        width: 350px;
+        padding: 8px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    table {
+        width: 100%;
+        padding: 5px;
+    }
+
+    tr,
+    td {
+        padding: 3px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    input {
+        width: 70%;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .add-user-section button {
+        width: 70%;
+        height: 20px;
+        font-size: 12px;
+    }
+}
